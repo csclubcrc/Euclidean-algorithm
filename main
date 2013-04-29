@@ -1,0 +1,18 @@
+#include <iostream>
+#include "Diophantine.h"
+
+using namespace std;
+
+
+int main()
+{
+
+  Diophantine eqn(90,175,1);
+  cout << endl;
+  eqn.euclideanAlg_reverse();
+  eqn.print();
+
+  
+ system("pause");
+
+}
